@@ -10,6 +10,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:id="@+id/tableLayout1">
+
 		<TableRow
 			android:id="@+id/tableRow1">
 			<TextView
@@ -22,9 +23,10 @@
 			<EditText
 				android:inputType="textPersonName"
 				android:layout_column="1"
-				android:width="500px"
+				android:width="300px"
 				android:id="@+id/nameET" />
 		</TableRow>
+
 		<TableRow
 			android:id="@+id/tableRow2">
 			<TextView
@@ -39,6 +41,7 @@
 				android:layout_column="1"
 				android:id="@+id/nightsET" />
 		</TableRow>
+		
 		<TableRow
 			android:id="@+id/tableRow3">
 			<TextView
@@ -52,26 +55,64 @@
 				android:minWidth="25px"
 				android:minHeight="25px"
 				android:layout_column="1"
-				android:orientation="horizontal"
 				android:id="@+id/roomRadioGroup">
 				<RadioButton
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:checked="true"
 					android:text="Suite"
-					android:id="@+id/suiteRoomRadioGroup" />
+					android:id="@+id/suiteRoomRadioGroup"
+					android:textSize="24px" />
 				<RadioButton
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:text="Double"
-					android:id="@+id/doubleRoomRadioGroup" />
+					android:id="@+id/doubleRoomRadioGroup"
+					android:textSize="24px" />
 				<RadioButton
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:text="Single"
-					android:id="@+id/singleRoomRadioGroup" />
+					android:id="@+id/singleRoomRadioGroup"
+					android:textSize="24px" />
 			</RadioGroup>
 		</TableRow>
+	
+		<TableRow
+			android:id="@+id/tableRow4">
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:text="Other Services : "
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/servicesTV"
+				android:layout_marginBottom="11.5dp" />
+			<CheckBox
+				android:text="Transportation"
+				android:id="@+id/transportCheckBox"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="50px"
+				android:textSize="24px" />
+			<CheckBox
+				android:text="Spa"
+				android:layout_width="wrap_content"
+				android:layout_height="90px"
+				android:id="@+id/spaCheckBox"
+				android:textSize="24px"
+				android:layout_marginLeft="-300px"
+				android:layout_marginTop="130px" />
+			<CheckBox
+				android:text="Tourist Guide"
+				android:layout_width="wrap_content"
+				android:layout_height="90px"
+				android:layout_marginLeft="-135px"
+				android:id="@+id/guideCheckBox"
+				android:textSize="24px"
+				android:layout_marginTop="210px" />
+			
+		</TableRow>
+
 	</TableLayout>
 
   
