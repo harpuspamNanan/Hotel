@@ -29,11 +29,11 @@
 			android:inputType="number"
 			android:width="200px" />
 		<TextView
-		android:text="Room type : "
-		android:textAppearance="?android:attr/textAppearanceSmall"
-		android:layout_width="290px"
-		android:layout_height="120px"
-		android:id="@+id/roomTypeTv" />
+			android:text="Room type : "
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="200px"
+			android:layout_height="120px"
+			android:id="@+id/roomTypeTv" />
 		
 		<RadioGroup
 			android:minWidth="25px"
@@ -45,17 +45,20 @@
 				android:layout_height="wrap_content"
 				android:checked="false"
 				android:text="Suite"
-				android:id="@+id/suiteRoomGroupBtn" />
+				android:id="@+id/suiteRoomGroupBtn"
+				android:textSize="24px" />
 			<RadioButton
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:text="Double"
-				android:id="@+id/doubleRoomGroupBtn" />
+				android:id="@+id/doubleRoomGroupBtn"
+				android:textSize="24px" />
 			<RadioButton
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:text="Single"
-				android:id="@+id/singleRoomGroupBtn" />
+				android:id="@+id/singleRoomGroupBtn"
+				android:textSize="24px" />
 		</RadioGroup>
 
 	</GridLayout>
