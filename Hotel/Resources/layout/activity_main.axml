@@ -113,6 +113,31 @@
 			
 		</TableRow>
 
+		<TableRow
+			android:id="@+id/tableRow5">
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:text="Total : "
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/totalTV" />
+			<EditText
+				android:inputType="numberDecimal"
+				android:layout_column="1"
+				android:id="@+id/totalET" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/tableRow6">
+			<Button
+				android:text="Ok"
+				android:layout_column="0"
+				android:id="@+id/submitBtn" />
+		</TableRow>
+
+	</TableLayout>
+
 	</TableLayout>
 
   
