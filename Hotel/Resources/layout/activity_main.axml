@@ -96,8 +96,8 @@
 		android:rowCount = "1"
 		android:columnCount="2"
 		android:id="@+id/gridLayout3"
-		android:layout_marginTop="490px"
-		android:layout_marginBottom="500px">
+		android:layout_marginTop="540px"
+		android:layout_marginBottom="460px">
 		<TextView
 			android:text="Total : "
 			android:textAppearance="?android:attr/textAppearanceSmall"

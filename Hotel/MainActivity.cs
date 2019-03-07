@@ -12,6 +12,11 @@ namespace Hotel
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        const int TAXPERCENT = 13;
+        EditText nightsEt, totalPriceEt;
+        RadioButton suiteRadio, doubleRadio, singleRadio;
+        CheckBox transportCheckBox, guideCheckBox, spaCheckBox;
+
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
