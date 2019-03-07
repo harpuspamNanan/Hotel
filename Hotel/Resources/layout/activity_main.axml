@@ -4,6 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+	<GridLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:rowCount = "5"
+		android:columnCount="2"
+		android:id="@+id/gridLayout1"
+		android:layout_marginBottom="550px">
+		<TextView
+			android:text="Full Name : "
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:id="@+id/nameTv" />
+		<EditText
+			android:inputType="textPersonName"
+			android:width="200px"
+			android:id="@+id/nameEt" />
+		<TextView
+			android:text="Nights : "
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:id="@+id/textView2" />
+		<EditText
+			android:inputType="number"
+			android:width="200px" />
+		<TextView
+		android:text="Room type : "
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="290px"
+		android:layout_height="120px"
+		android:id="@+id/roomTypeTv" />
+		
+		<RadioGroup
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:orientation="horizontal"
+			android:id="@+id/roomGroup">
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="false"
+				android:text="Suite"
+				android:id="@+id/suiteRoomGroupBtn" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Double"
+				android:id="@+id/doubleRoomGroupBtn" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Single"
+				android:id="@+id/singleRoomGroupBtn" />
+		</RadioGroup>
+
+	</GridLayout>
+	
+
+	
+
+
+	
 
 
   
