@@ -63,6 +63,18 @@
 			android:text="Other Services: "
 			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:id="@+id/servicesTv" />
+	
+	</GridLayout>
+	<GridLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:rowCount = "1"
+		android:columnCount="3"
+		android:id="@+id/gridLayout2"
+		android:layout_marginTop="450px"
+		android:layout_marginBottom="600px">
 		<CheckBox
 			android:text="Transportation"
 			android:id="@+id/transportCheckBox"
@@ -74,7 +86,26 @@
 		<CheckBox
 			android:text="Spa"
 			android:id="@+id/SpaCheckBox"
-			android:textSize="24px" />
+			android:textSize="24px"/>
+	</GridLayout>
+	<GridLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:rowCount = "1"
+		android:columnCount="2"
+		android:id="@+id/gridLayout3"
+		android:layout_marginTop="490px"
+		android:layout_marginBottom="500px">
+		<TextView
+			android:text="Total : "
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:id="@+id/totalTv" />
+		<EditText
+			android:inputType="numberDecimal"
+			android:width="200px"
+			android:id="@+id/totalEt" />
 	</GridLayout>
 	
 
